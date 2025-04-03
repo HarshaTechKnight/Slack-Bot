@@ -1,0 +1,15 @@
+# Core Requirements
+Django==4.2.7
+slack-sdk==3.21.3
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Development/Testing
+django-debug-toolbar==4.1.0
+pytest==7.4.0
+pytest-django==4.5.2
+
+# Production (optional)
+gunicorn==20.1.0
+whitenoise==6.4.0
+psycopg2-binary==2.9.7  # For PostgreSQL
